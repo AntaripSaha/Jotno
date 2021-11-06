@@ -1,0 +1,80 @@
+p{
+    margin-bottom: 0;
+}
+.invoice-box {
+    position: relative;
+}
+.invoice-box .payment-status-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 100px!important;
+    opacity: 0.1;
+    background: transparent;
+    z-index: 1;
+    font-weight: 600;
+    transform: rotate(
+-45deg) translate(-50%,-50%);
+    color: #8a8a8a;
+}
+.invoice-box .topbar-information{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px 0;
+}
+.invoice-box .topbar-information .left p{
+    font-weight: bold;
+}
+.invoice-box .invoice-to{
+    padding: 15px 0;
+}
+.invoice-box .invoice-to h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.invoice-box .invoice-to .right table{
+    width: 100%;
+}
+.invoice-box .invoice-to .right table thead tr th{
+    width: 50%;
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+.invoice-box .invoice-to .right table thead tr .left{
+    text-align: left;
+    background: #eeeeee;
+}
+.invoice-box .invoice-to .right table thead tr .right{
+    text-align: right;
+}
+
+.invoice-box .invoice-test table{
+    width: 100%;
+}
+.invoice-box .invoice-test table thead tr th{
+    width: 50%;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background: #eeeeee;
+}
+.invoice-box .invoice-test table tbody tr td{
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+.invoice-box .invoice-test table tfoot tr td{
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background: #eeeeee;
+}
+.payment-status{
+    color: white;
+    background: #0269b3;
+    border: none;
+    padding: 6px;
+}
+.payment-status:focus{
+    box-shadow: none;
+    outline: none;
+}
+option:disabled {
+    color: white!important;
+}

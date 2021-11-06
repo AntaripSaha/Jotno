@@ -1,0 +1,67 @@
+.contact-info{
+    /* background: #ee344e; */
+    background: #066bb4;
+    color: white;
+}
+.contact-info h3{
+    color: white;
+}
+.contact-info .info-left{
+    width: 10%;
+    float: left;
+}
+.info-wrap {
+    background: #066bb4;
+}
+
+.info-wrap h3,
+.info-wrap p,
+.info-wrap a,
+.info-wrap .fa {
+    color: white;
+}
+
+.contact-info ul{
+    display: contents;
+}
+
+.form-control {
+    border-radius: 0;
+}
+.form-control:focus{
+    border: 1px solid #066bb4!important;
+}
+
+.send_sms {
+    color: #ffffff;
+    background: #066bb4;
+    border-radius: 0;
+    border: none;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+}
+
+.send_sms:hover {
+    color: #066bb4;
+    background: #ffffff;
+    border: 2px solid #066bb4;
+}
+
+.contact-info ul li {
+    list-style: none;
+    color: white;
+}
+
+.contact-info .info-left {
+    width: 10%;
+    float: left;
+}
+
+.contact-info .info-right {
+    width: 90%;
+    float: left;
+}
+.contact-social a{
+    margin-right: 15px;
+    font-size: 20px;
+}

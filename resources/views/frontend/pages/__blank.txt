@@ -1,0 +1,14 @@
+@extends("frontend.template.layout")
+
+@section('per_page_meta')
+<title>Jotno - Medical Services</title>
+@endsection
+
+@section('per_page_css')
+@endsection
+
+@section('body-content')
+@endsection
+
+@section('per_page_js')
+@endsection

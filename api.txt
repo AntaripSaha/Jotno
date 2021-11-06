@@ -1,0 +1,53 @@
+reistration ( POST )
+https://jotno.beautyclinicbd.com/api/register
+
+login ( POST )
+https://jotno.beautyclinicbd.com/api/login
+
+today's appoinment api ( GET - patient id in request )
+https://jotno.beautyclinicbd.com/api/appoinment-today
+
+all appoinment api ( GET - patient id in request )
+https://jotno.beautyclinicbd.com/api/appoinment-all
+
+get appoinment api ( POST - patient id in request )
+https://jotno.beautyclinicbd.com/api/appoinment-get
+
+get prescription api ( GET - prescription id in request )
+https://jotno.beautyclinicbd.com/api/prescription-get
+
+get prescription pdf api ( GET - prescription id in request )
+https://jotno.beautyclinicbd.com/api/prescription-pdf
+
+get billing pdf api ( GET - prescription id in request )
+https://jotno.beautyclinicbd.com/api/billing-pdf
+
+get banner api ( GET - prescription id in request )
+https://jotno.beautyclinicbd.com/api/banner
+
+get prescription report api ( GET - prescription id in request )
+https://jotno.beautyclinicbd.com/api/prescription-report
+
+add prescription report api ( POST - prescription id in request )
+https://jotno.beautyclinicbd.com/api/report-create
+
+edit prescription report api ( POST - report id in request )
+https://jotno.beautyclinicbd.com/api/report-edit
+
+delete prescription report api ( POST - report id in request )
+https://jotno.beautyclinicbd.com/api/report-delete
+
+all test api ( GET - patient id in request )
+https://jotno.beautyclinicbd.com/api/all-test
+
+prescription list api ( GET - patient id in request )
+https://jotno.beautyclinicbd.com/api/prescription-list
+
+password reset api ( POST - patient id in request )
+https://jotno.beautyclinicbd.com/api/password-reset
+
+profile update api ( POST - patient id in request )
+https://jotno.beautyclinicbd.com/api/patient-profile-update
+
+content api ( GET )
+https://jotno.beautyclinicbd.com/api/content

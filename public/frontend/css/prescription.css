@@ -1,0 +1,95 @@
+
+.doctor-information .left-card p,
+.doctor-information .right-card p,
+.prescription-view-card .patient-information p{
+    margin-bottom: 0;
+}
+.prescription-view-card{
+    padding: 0!important;
+}
+.prescription-view-card .doctor-information{
+    background-color: #efefef;
+}
+
+.prescription-view-card .doctor-information,
+.prescription-view-card .patient-information{
+    padding: 15px;
+}
+.prescription-view-card .patient-information{
+    text-align: center;
+    border: 1px solid #efefef;
+}
+
+ul{
+    padding-left: 0;
+}
+.prescription-view-card .prescription-information .left-card .test-type li{
+    list-style: none;
+}
+.prescription-view-card .prescription-information .left-card .test-type-list{
+    padding-left: 15px;
+}
+.prescription-view-card .prescription-information .col-md-5{
+    border-right: 1px solid #efefef;
+    padding: 15px;
+}
+.prescription-view-card .prescription-information .left-card .advice p{
+    margin-bottom: 5px;
+}
+
+.prescription-view-card .prescription-information .right-card .image{
+    padding: 15px 0;
+}
+.prescription-view-card .prescription-information .right-card .image img{
+    width: 25px;
+}
+.prescription-view-card .prescription-information .right-card .medicine{
+    padding: 5px 0;
+}
+.prescription-view-card .prescription-information .right-card .medicine h2{
+    font-size: 14px;
+}
+.prescription-view-card .prescription-information .right-card .medicine p{
+    margin-bottom: 0;
+}
+.prescription-view-card .footer-information{
+    margin: 15px 0;
+}
+.prescription-view-card .prescription-information{
+    border: 1px solid #efefef;
+}
+.tab-pane .prescription-topbar ul li{
+    display: inline;
+    margin-right: 15px;
+}
+.tab-pane .prescription-topbar ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.tab-pane .prescription-topbar ul li a{
+    padding: 7px 15px;
+    background: #0269b3;
+    color: white;
+}
+.tab-pane .prescription-topbar ul li a:hover{
+    background: #ee344e;
+}
+
+.prescription-view-card .doctor-information .right-card{
+    text-align: right!important;
+}
+
+
+
+
+
+@media ( min-width : 320px ) and ( max-width : 500px ) {
+    .tab-pane .prescription-topbar ul li a {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .prescription-view-card .doctor-information .right-card{
+        text-align: left!important;
+        margin-top: 15px;
+    }
+}
